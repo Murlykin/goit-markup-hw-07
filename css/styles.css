@@ -50,7 +50,7 @@ body {
   background-color: var(--body-background-color);
 }
 
-:root {
+/* :root {
   --text-color: #212121;
   --beckground-color: #2196f3;
   --text-color-p: #757575;
@@ -63,8 +63,8 @@ body {
   --icone-bg-color: #f5f4fa;
   --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* --technical-color: tomato; */
-}
+
+} */
 
 .sections {
   padding-top: 94px;
