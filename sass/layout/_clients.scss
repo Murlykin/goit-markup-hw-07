@@ -5,10 +5,15 @@
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 30px;
-}
-
-.clients .item {
+    & .item {
     flex-basis: calc((100% - 150px) / 6);
+}
+    &>.icones {
+    display: flex;
+    align-self: center;
+    width: 170px;
+    height: 92px;
+}
 }
 
 .clients__links {
@@ -29,10 +34,4 @@
 }
 }
 
-.clients>.icones {
-    display: flex;
-    align-self: center;
-    width: 170px;
-    height: 92px;
-}
 
