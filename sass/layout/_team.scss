@@ -29,13 +29,12 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 0 -30px;
-}
-
-.team__crew>.items {
+    &>.items {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     background-color: var(--body-background-color);
     width: 270px;
+}
 }
 
 .team__conteiner {
@@ -55,14 +54,13 @@
     justify-content: center;
     column-gap: 10px;
     margin-top: 16px;
-}
-
-.team__sochmed .icones {
+    & .icones {
     width: 20px;
     height: 20px;
     box-sizing: border-box;
     outline: 2px solid var(--technical-color);
     transition: background-color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
+}
 }
 
 .team__links {
@@ -76,14 +74,14 @@
     fill: currentColor;
     outline: 2px solid var(--technical-color);
     transition: background-color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
-}
-
-.team__links:hover,
-.team__links:focus {
+    &:hover,
+    &:focus {
     background-color: var(--beckground-color);
 }
 
-.team__links:hover .icones,
-.team__links:focus .icones {
+    &:hover .icones,
+    &:focus .icones {
     fill: var(--body-background-color);
 }
+}
+
