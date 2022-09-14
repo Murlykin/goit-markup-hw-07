@@ -22,6 +22,11 @@
     border-radius: 4px;
     outline: 2px solid var(--technical-color);
     transition: fill 250ms var(--timing-functione), border-color 250ms var(--timing-functione);
+    &:hover,
+    &:focus {
+    fill: var(--beckground-color);
+    border-color: var(--beckground-color);
+}
 }
 
 .clients>.icones {
@@ -31,8 +36,3 @@
     height: 92px;
 }
 
-.clients__links:hover,
-.clients__links:focus {
-    fill: var(--beckground-color);
-    border-color: var(--beckground-color);
-}

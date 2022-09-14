@@ -1,4 +1,4 @@
-/* =======================Footer===========================================*/
+// /* =======================Footer===========================================*/
 
 .footer {
     background: var(--footer-bacground-color);
@@ -6,30 +6,14 @@
     padding-bottom: 60px;
 }
 
-.footer__logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--beckground-color);
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.footer__logo--body-background-color {
-    color: var(--body-background-color);
-}
-
-.footer__map {
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--body-background-color);
-}
+// .footer__map {
+//     font-size: 14px;
+//     line-height: 1.7;
+//     font-style: normal;
+//     letter-spacing: 0.03em;
+//     text-decoration: none;
+//     color: var(--body-background-color);
+// }
 
 .footer__contact {
     font-size: 14px;
@@ -40,19 +24,9 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__address>.items:not(:last-child) {
-    margin-bottom: 9px;
-}
 
-.footer__address a {
-    transition: color 250ms var(--timing-functione);
-}
 
-.footer__address a:hover,
-.footer__address a:focus {
-    color: var(--beckground-color);
-    outline: none;
-}
+
 
 .footer__add {
     margin-left: 70px;

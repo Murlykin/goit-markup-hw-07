@@ -33,13 +33,12 @@
 
 .elements__picture {
     transition: box-shadow 250ms var(--timing-functione);
-}
-
-.elements__picture:hover,
-.elements__picture:focus {
+    &:hover,
+    &:focus {
     display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 }
 
 .portfolio__buttons>.items {
@@ -55,15 +54,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: -30px;
-}
-
-.elements>.items {
+    &>.items {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
 }
-
-.elements>.items:not(:nth-child(-n + 3)) {
+    &>.items:not(:nth-child(-n + 3)) {
     margin-top: 30px;
+}
 }
 
 .port__discript {
