@@ -58,8 +58,8 @@
     margin-right: 10px;
 }
 
-.site-nav:hover,
-.site-nav:focus,
+.site-nav__link:hover,
+.ite-nav__link:focus,
 .auth-nav a:hover,
 .auth-nav a:focus {
     color: var(--beckground-color);
@@ -81,7 +81,7 @@
     transition: opacity 250ms var(--timing-functione);
 }
 
-.site-nav__accent {
+.site-nav__link--accent {
     color: var(--beckground-color);
 }
 
@@ -89,6 +89,6 @@
     opacity: 1;
 }
 
-.site-nav .site-nav__accent::after {
+.site-nav .site-nav__link--accent::after {
     opacity: 1;
 }
