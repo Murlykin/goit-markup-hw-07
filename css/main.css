@@ -115,7 +115,7 @@ body {
   text-decoration: none;
 }
 
-.head-sectione__logo--beckground-color {
+.head-sectione__color {
   color: var(--beckground-color);
 }
 
@@ -200,7 +200,7 @@ body {
   transition: opacity 250ms var(--timing-functione);
 }
 
-.site-nav__link--beckground-color {
+.site-nav__accent {
   color: var(--beckground-color);
 }
 
@@ -208,7 +208,7 @@ body {
   opacity: 1;
 }
 
-.site-nav .site-nav__link--beckground-color::after {
+.site-nav .site-nav__accent::after {
   opacity: 1;
 }
 
