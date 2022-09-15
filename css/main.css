@@ -43,8 +43,8 @@ button {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--text-color-p);
@@ -151,7 +151,8 @@ body {
 .modal__img {
   background-color: var(--body-background-color);
 }
-.modal__img:hover, .modal__img:focus {
+.modal__img:hover,
+.modal__img:focus {
   fill: var(--button-hover-focus);
 }
 
@@ -249,8 +250,8 @@ body {
 
 .agree__input {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .agree__input:focus + .agree__icone {
   border-color: var(--button-hover-focus);
@@ -293,7 +294,8 @@ body {
 .dek {
   color: var(--beckground-color);
 }
-.dek:focus, .dek:hover {
+.dek:focus,
+.dek:hover {
   text-decoration: none;
 }
 
@@ -316,7 +318,8 @@ body {
   border-color: transparent;
   transition: background-color 250ms var(--timing-functione);
 }
-.modal__button:hover, .modal__button:focus {
+.modal__button:hover,
+.modal__button:focus {
   background-color: var(--button-hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -333,7 +336,7 @@ body {
 }
 
 .head-sectione__logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -374,7 +377,8 @@ body {
 .link-focus a {
   transition: color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
 }
-.link-focus a a:hover, .link-focus a a:focus {
+.link-focus a a:hover,
+.link-focus a a:focus {
   color: var(--beckground-color);
   outline: none;
 }
@@ -416,7 +420,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 4px;
@@ -445,7 +449,8 @@ body {
   padding-bottom: 200px;
   background-color: var(--footer-bacground-color);
   text-align: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/сoworker.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/сoworker.jpg);
   background-position: center;
   background-size: cover;
   max-width: 1600px;
@@ -466,7 +471,7 @@ body {
 
 /* =====================button Studio=====================*/
 .header__button {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   background: var(--beckground-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -480,9 +485,11 @@ body {
   color: var(--body-background-color);
   border-color: transparent;
   padding: 8px 30px;
-  transition: background-color 250ms var(--timing-functione), box-shadow 250ms var(--timing-functione), border-radius 250ms var(--timing-functione);
+  transition: background-color 250ms var(--timing-functione),
+    box-shadow 250ms var(--timing-functione), border-radius 250ms var(--timing-functione);
 }
-.header__button:hover, .header__button:focus {
+.header__button:hover,
+.header__button:focus {
   background-color: var(--button-hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -557,7 +564,7 @@ body {
 .about__direction .items::before {
   display: inline-block;
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 25%;
   bottom: 0;
@@ -625,7 +632,8 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   outline: 2px solid var(--technical-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -634,7 +642,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
   margin-top: 16px;
 }
 .team__sochmed .icones {
@@ -657,10 +665,12 @@ body {
   outline: 2px solid var(--technical-color);
   transition: background-color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
 }
-.team__links:hover, .team__links:focus {
+.team__links:hover,
+.team__links:focus {
   background-color: var(--beckground-color);
 }
-.team__links:hover .icones, .team__links:focus .icones {
+.team__links:hover .icones,
+.team__links:focus .icones {
   fill: var(--body-background-color);
 }
 
@@ -670,7 +680,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
 }
 .clients .item {
   flex-basis: calc((100% - 150px) / 6);
@@ -694,7 +704,8 @@ body {
   outline: 2px solid var(--technical-color);
   transition: fill 250ms var(--timing-functione), border-color 250ms var(--timing-functione);
 }
-.clients__links:hover, .clients__links:focus {
+.clients__links:hover,
+.clients__links:focus {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
 }
@@ -707,7 +718,7 @@ body {
 }
 
 .portfolio__button {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -719,12 +730,15 @@ body {
   display: inline-block;
   padding: 6px 22px;
   background-color: var(--teams-bacground-color);
-  transition: color 250ms var(--timing-functione), background-color 250ms var(--timing-functione), box-shadow 250ms var(--timing-functione);
+  transition: color 250ms var(--timing-functione), background-color 250ms var(--timing-functione),
+    box-shadow 250ms var(--timing-functione);
 }
-.portfolio__button:hover, .portfolio__button:focus {
+.portfolio__button:hover,
+.portfolio__button:focus {
   color: var(--body-background-color);
   background-color: var(--button-hover-focus);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .cards {
@@ -757,7 +771,7 @@ body {
 }
 
 .footer__logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -806,7 +820,8 @@ body {
 .footer__address a {
   transition: color 250ms var(--timing-functione);
 }
-.footer__address a:hover, .footer__address a:focus {
+.footer__address a:hover,
+.footer__address a:focus {
   color: var(--beckground-color);
   outline: none;
 }
@@ -816,7 +831,7 @@ body {
 }
 
 .footer__title {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -906,7 +921,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .subscribe__icone {
@@ -922,7 +937,7 @@ body {
   padding: 10px 32px;
   min-width: 216px;
   margin-left: 10px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -984,7 +999,7 @@ body {
   flex-basis: calc(33.3333333333% - 30px);
   margin-left: 30px;
 }
-.elements > .items:not(:nth-child(-n+3)) {
+.elements > .items:not(:nth-child(-n + 3)) {
   margin-top: 30px;
 }
 
@@ -995,9 +1010,11 @@ body {
 .elements__picture {
   transition: box-shadow 250ms var(--timing-functione);
 }
-.elements__picture:hover, .elements__picture:focus {
+.elements__picture:hover,
+.elements__picture:focus {
   display: block;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .elements__picture:hover .port__paragraph,
@@ -1012,4 +1029,4 @@ body {
 
 .portfolio__buttons .items + .items {
   margin-left: 8px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
