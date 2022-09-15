@@ -1,4 +1,4 @@
-/* html {
+html {
   box-sizing: border-box;
 }
 
@@ -39,18 +39,18 @@ ol {
 
 button {
   cursor: pointer;
-} */
+}
 
-/* body {
+body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--text-color-p);
   background-color: var(--body-background-color);
-} */
+}
 
-/* :root {
+:root {
   --text-color: #212121;
   --beckground-color: #2196f3;
   --text-color-p: #757575;
@@ -63,10 +63,10 @@ button {
   --icone-bg-color: #f5f4fa;
   --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
 
+  /* --technical-color: tomato; */
+}
 
-} */
-
-/* .sections {
+.sections {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -80,9 +80,9 @@ button {
   color: var(--text-color);
   margin: 0px;
   margin-bottom: 50px;
-} */
+}
 
-/* .conteiner,
+.conteiner,
 .conteiner-top {
   margin-left: auto;
   margin-right: auto;
@@ -90,10 +90,10 @@ button {
   padding-right: 15px;
   width: 1200px;
   outline: 2px solid var(--technical-color);
-} */
+}
 
 /* =========================header ==================== */
-/* .head-sectione {
+.head-sectione {
   background-color: var(--body-background-color);
   border-bottom: 1px solid;
   color: #ececec;
@@ -115,9 +115,9 @@ button {
 
 .head-sectione__logo--beckground-color {
   color: var(--beckground-color);
-} */
+}
 
-/* =========================== nav ==========================
+/* =========================== nav ==========================*/
 .main-nav {
   display: flex;
   align-items: center;
@@ -212,10 +212,10 @@ button {
 
 .site-nav .site-nav__link--beckground-color::after {
   opacity: 1;
-} */
+}
 
 /* ================== section_1 ==================== */
-/* .header {
+.header {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--footer-bacground-color);
@@ -238,10 +238,10 @@ button {
   color: var(--body-background-color);
   margin-top: 0px;
   margin-bottom: 30px;
-} */
+}
 
 /* =====================button Studio=====================*/
-/* .header__button {
+.header__button {
   font-family: 'Roboto';
   background: var(--beckground-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -265,10 +265,10 @@ button {
   background-color: var(--button-hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-} */
+}
 
 /* =========================== Modal ====================================== */
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -287,8 +287,8 @@ button {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-} */
-/* 
+}
+
 .modal {
   position: absolute;
   top: 50%;
@@ -322,6 +322,31 @@ button {
   background-color: var(--body-background-color);
 }
 
+.text-backdrop {
+  margin-top: 50%;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 250ms var(--timing-functione);
+}
+
+.backdrop .is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+.backdrop .is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal__close {
   position: absolute;
   top: 0;
@@ -347,12 +372,12 @@ button {
 .modal__img:hover,
 .modal__img:focus {
   fill: var(--button-hover-focus);
-} */
+}
 
 /* .text-backdrop {
   margin-top: 50%;
 } */
-/* 
+
 .form {
   min-width: 528px;
   min-height: 581px;
@@ -433,8 +458,9 @@ justify-content: center;
 .agree__label>.agree__icone:hover {
   border-color: var(--button-hover-focus);
   fill: var(--button-hover-focus);
-} */
-/* 
+}
+.form__icones
+
 .agree__field {
   display: flex;
   align-items: center;
@@ -515,10 +541,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   background-color: var(--button-hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-} */
+}
 
 /* ============================ cection-2================= */
-/* .description {
+.description {
   display: flex;
   flex-wrap: wrap;
   margin: 0 0 0 -30px;
@@ -574,7 +600,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
 
 .description__icone {
   background-color: var(--icone-bg-color);
-} */
+}
 
 /* Line
 .line {
@@ -585,21 +611,22 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   border: 1px solid #ececec;
 } */
 
-/* ====================== about ===================== */
+/* ====================== section-3 ===================== */
 
-/* .sections .about {
+.section,
+.about {
   padding-top: 0;
-} */
-/* 
-.about__direction {
+}
+
+.abou__direction {
   display: flex;
 }
 
-.about__direction>.items {
+.abou__direction>.items {
   display: inline-block;
 }
 
-.about__direction .items+.items {
+.abou__direction .items+.items {
   margin-left: 30px;
 }
 
@@ -619,12 +646,12 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   text-transform: uppercase;
 }
 
-.about__direction .items {
+.abou__direction .items {
   position: relative;
   display: inline-block;
 }
 
-.about__direction .items::before {
+.abou__direction .items::before {
   display: inline-block;
   position: absolute;
   content: '';
@@ -633,11 +660,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   bottom: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.8);
-} */
+}
 
-/* ======================== team ========================*/
+/* ======================== section-4 ========================*/
 
-/* 
+
 .team {
   background-color: var(--teams-bacground-color);
 }
@@ -662,6 +689,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   font-size: 16px;
   color: var(--text-color-p);
 }
+
+
 
 .team__crew {
   display: flex;
@@ -724,10 +753,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
 .team__links:hover .icones,
 .team__links:focus .icones {
   fill: var(--body-background-color);
-} */
+}
 
-/* ====================== clients =======================================*/
-/* 
+/* ====================== section-5 =======================================*/
+
 .clients {
   display: flex;
   flex-wrap: wrap;
@@ -763,11 +792,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
 .clients__links:focus {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
-} */
+}
 
 /* =======================Footer===========================================*/
 
-/* .footer {
+.footer {
   background: var(--footer-bacground-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -953,11 +982,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   background-color: var(--button-hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-} */
+}
 
-/*================================== portfolio =============================*/
+/*================================== portfoli=============================*/
 
-/* .portfolio .portfolio__buttons {
+.portfolio .portfolio__buttons {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -990,8 +1019,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
   background-color: var(--button-hover-focus);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-} */
-/* 
+}
+
 .cards {
   display: block;
   padding: 24px 20px;
@@ -1092,4 +1121,4 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
 .elements__picture:focus .port__paragraph {
   transform: translateY(0);
   opacity: 1;
-} */
+}

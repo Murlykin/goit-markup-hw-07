@@ -1,5 +1,0 @@
-@mixin flexWrap($type: flex, $main-axis: wrap ) {
-    display: $type;
-    justify-content: $main-axis;
-    align-items: $cross-axis;
-}
