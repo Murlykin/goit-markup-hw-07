@@ -1,12 +1,19 @@
 @import './base/common';
-@import './utils/variables';
 @import './base/container';
 @import './base/section';
+
+@import './utils/variables';
+@import './utils/placeholder-sections';
+@import './utils/flex-center';
+@import './utils/flex-wrap';
+
+
+@import './components/backdrop';
+@import './components/modal';
+
 @import './layout/head';
 @import './layout/nav.scss';
 @import './layout/header';
-@import './components/backdrop';
-@import './components/modal';
 @import './layout/cection-2';
 @import './layout/about';
 @import './layout/team';
@@ -18,3 +25,6 @@
 @import './layout/subscribe';
 @import './layout/port';
 @import './layout/elements';
+@import './layout/portfolio__buttons';
+@import './layout/head-logo';
+@import './layout/.header__button';

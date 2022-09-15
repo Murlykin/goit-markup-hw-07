@@ -1,8 +1,7 @@
 /* ====================== clients =======================================*/
 
 .clients {
-    display: flex;
-    flex-wrap: wrap;
+    @import './utils/flex-wrap';
     justify-content: center;
     column-gap: 30px;
     & .item {
@@ -17,20 +16,18 @@
 }
 
 .clients__links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @import './utils/flex-center';
     height: 92px;
-    color: var(--icone-color);
+    color: $icone-color;
     fill: currentColor;
-    border: 1px solid var(--icone-color);
+    border: 1px solid $icone-color;
     border-radius: 4px;
-    outline: 2px solid var(--technical-color);
-    transition: fill 250ms var(--timing-functione), border-color 250ms var(--timing-functione);
+    outline: 2px solid $technical-color;
+    transition: fill 250ms $timing-functione, border-color 250ms $timing-functione;
     &:hover,
     &:focus {
-    fill: var(--beckground-color);
-    border-color: var(--beckground-color);
+    fill: $beckground-color;
+    border-color: $beckground-color;
 }
 }
 

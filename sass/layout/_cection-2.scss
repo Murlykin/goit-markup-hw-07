@@ -1,7 +1,6 @@
 /* ============================ cection-2================= */
 .description {
-    display: flex;
-    flex-wrap: wrap;
+    @import './utils/flex-wrap';
     margin: 0 0 0 -30px;
     padding: 0px;
     &>.description__items {
@@ -14,7 +13,7 @@
     position: fixed;
     transform: scale(0);
     & .description__text {
-    color: var(--secondory-text-color);
+    color: $secondory-text-color;
     margin-top: 0;
     font-size: 14px;
     line-height: 1.7;
@@ -27,7 +26,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--text-color);
+    color: $text-color;
     margin-bottom: 10px;
 }
 
@@ -36,19 +35,17 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--text-color-p);
+    color: $text-color-p;
     margin-top: 0;
 }
 
 .description__icones {
     height: 120px;
     margin-bottom: 30px;
-    background-color: var(--icone-bg-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: $icone-bg-color;
+    @import './utils/flex-center';
     }
 
 .description__icone {
-    background-color: var(--icone-bg-color);
+    background-color: $icone-bg-color;
 }

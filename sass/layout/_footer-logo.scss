@@ -5,11 +5,11 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--beckground-color);
+    color: $beckground-color;
     display: inline-block;
     margin-bottom: 20px;
 }
 
 .footer__logo--body-background-color {
-    color: var(--body-background-color);
+    color: $body-background-color;
 }

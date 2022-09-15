@@ -1,7 +1,7 @@
 /* ======================== team ========================*/
 
 .team {
-    background-color: var(--teams-bacground-color);
+    background-color: $teams-bacground-color;
 }
 
 .team__header,
@@ -11,7 +11,7 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-color);
+    color: $text-color;
     margin-top: 0;
 }
 
@@ -22,17 +22,16 @@
 .team__text {
     font-weight: 400;
     font-size: 16px;
-    color: var(--text-color-p);
+    color: $text-color-p;
 }
 
 .team__crew {
-    display: flex;
-    flex-wrap: wrap;
+    @import './utils/flex-wrap';
     margin: 0 0 0 -30px;
     &>.items {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
-    background-color: var(--body-background-color);
+    background-color: $body-background-color;
     width: 270px;
 }
 }
@@ -42,7 +41,7 @@
     padding: 30px 0;
     margin-top: 0;
     margin-bottom: 0;
-    outline: 2px solid var(--technical-color);
+    outline: 2px solid $technical-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -59,7 +58,7 @@
     height: 20px;
     box-sizing: border-box;
     outline: 2px solid var(--technical-color);
-    transition: background-color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
+    transition: background-color 250ms $timing-functione, fill 250ms $timing-functione;
 }
 }
 
@@ -70,18 +69,18 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: var(--icone-color);
+    color: $icone-color;
     fill: currentColor;
-    outline: 2px solid var(--technical-color);
-    transition: background-color 250ms var(--timing-functione), fill 250ms var(--timing-functione);
+    outline: 2px solid $technical-color;
+    transition: background-color 250ms $timing-functione, fill 250ms $timing-functione;
     &:hover,
     &:focus {
-    background-color: var(--beckground-color);
+    background-color: $beckground-color;
 }
 
     &:hover .icones,
     &:focus .icones {
-    fill: var(--body-background-color);
+    fill: $body-background-color;
 }
 }
 
