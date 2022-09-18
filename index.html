@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
@@ -19,7 +20,7 @@
   <!--header-->
   <header class="head-sectione">
     <div class="conteiner-top main-nav">
-      <a href="index.html" class="head-sectione__logo" lang="en"><span class="head-sectione__logo--color">Web</span>Studio</a>
+      <a href="index.html" class="head-sectione__logo animate__animated animate__bounceInLeft" lang="en"><span class="head-sectione__logo--color">Web</span>Studio</a>
       <nav>
         <ul class="link-focus site-nav">
           <li class="site-nav__items"><a href="index.html" class="site-nav__link site-nav__link--accent">Студія</a></li>
@@ -118,11 +119,12 @@
               </button>
           </div>
     </section>
+
     <!--section_2-->
     <section class="sections">
       <div class="conteiner">
         <h2 class="sections__title hidden-visally">Опис діятельності</h2>
-        <ul class="list description">
+        <ul class="list description animate__animated animate__fadeInUp wow" data-wow-offset="100">
           <li class="description__items">
             <div class="description__icones">
               <svg class="description__icone" width="70" height="70">
@@ -173,7 +175,7 @@
 
     <!--section_3-->
     <section class="sections about">
-      <div class="conteiner">
+      <div class="conteiner animate__animated animate__fadeInUp wow" data-wow-offset="100">
         <h2 class="sections__title">Чим ми займаємося</h2>
         <ul class="list about__direction">
           <li class="items">
@@ -201,7 +203,7 @@
 
     <!--section_4-->
     <section class="sections team">
-      <div class="conteiner">
+      <div class="conteiner animate__animated animate__fadeInUp wow" data-wow-offset="100">
         <h2 class="sections__title">Наша команда</h2>
         <ul class="list team__crew">
           <li class="items">
@@ -357,7 +359,7 @@
 
     <!-------------------------------------------section_5------------------------------------>
     <section class="sections">
-      <div class="conteiner">
+      <div class="conteiner animate__animated animate__fadeInUp wow" data-wow-offset="100">
         <h2 class="sections__title">Постійні клієнти</h2>
         <ul class="list clients">
           <li class="item">
@@ -474,6 +476,10 @@
     </div>
   </footer>
   <script src="./js/modal.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
